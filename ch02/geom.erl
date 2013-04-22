@@ -3,4 +3,6 @@
 -module (geom).
 -export ([area/2]).
 
+%% @doc Calculate area of rectange (or rhombus)
+-spec(area(number(),number()) -> number()).
 area(Base, Height) -> Base * Height.
